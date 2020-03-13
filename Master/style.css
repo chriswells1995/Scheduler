@@ -21,43 +21,44 @@ textarea{
   border-radius: 0;
   border-bottom: 10px solid black;
 }
-
+/* Whitespace is preserved by the browser. Text will wrap when necessary, and on line breaks */
 .description{
   white-space: pre-wrap;
 }
-
+/* This centers and sizes the time-block rows */
 .time-block{
   text-align: center;
   border-radius: 15px;
 }
-
+/* This applies to the <div>s with the "row" class */
 .row {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;;
 }
-
+/* This applies to the <div>s that display the hour. The dotted lines are aesthetically pleasing */
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
 }
-
+/* When this class is dynamically added to a row, the background color changes to white */
 .past {
   background-color: #d3d3d3;
   color: white;
 }
-
+/* When this class is dynamically added to a row, the background color changes to red */
 .present {
   background-color: #ff6961;
   color: white;
 }
-
+/* When this class is dynamically added to a row, the background color changes to green */
 .future {
   background-color: #77dd77;
   color: white;
 }
-
+/* This helps to make the save button, which already has the save icon in it, more aesthetically pleasing by giving it cureved edges,
+a blue background, and making the save icon white */
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
@@ -65,7 +66,7 @@ textarea{
   background-color: #06AED5;
   color: white;
 }
-
+/* This makes the save icon get bigger and turn black if you hover over it */
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
